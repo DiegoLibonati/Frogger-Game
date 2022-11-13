@@ -33,7 +33,7 @@ I made a web page to play Frogger. Frogger is a traditional game of the frog try
 
 ## Portfolio Link
 
-`https://diegolibonati.github.io/DiegoLibonatiWeb/#/projects?q=Frogger%20page`
+`https://diegolibonati.github.io/DiegoLibonatiWeb/#/projects?q=Frogger%20Page`
 
 ## Video
 
