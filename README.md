@@ -23,17 +23,9 @@ I made a web page to play Frogger. Frogger is a traditional game of the frog try
 2. CSS3
 3. HTML5
 
-## Galery
-
-![Frogger-page](https://raw.githubusercontent.com/DiegoLibonati/DiegoLibonatiWeb/main/data/projects/Javascript/Imagenes/frogger-0.jpg)
-
-![Frogger-page](https://raw.githubusercontent.com/DiegoLibonati/DiegoLibonatiWeb/main/data/projects/Javascript/Imagenes/frogger-1.jpg)
-
-![Frogger-page](https://raw.githubusercontent.com/DiegoLibonati/DiegoLibonatiWeb/main/data/projects/Javascript/Imagenes/frogger-2.jpg)
-
 ## Portfolio Link
 
-`https://diegolibonati.github.io/DiegoLibonatiWeb/#/projects?q=Frogger%20Page`
+[`https://www.diegolibonati.com.ar/#/project/39`](https://www.diegolibonati.com.ar/#/project/39)
 
 ## Video
 
