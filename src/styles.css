@@ -23,8 +23,8 @@ body{
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
-    height: 7rem;
-    background-color: #FFB800);
+    height: auto;
+    background-color: #FFB800;
     border-bottom: .1rem solid rgb(0, 0, 0);
 }
     .div_container h2{
@@ -125,7 +125,7 @@ body{
         width: 2rem;
         height: 2.5rem;
         z-index: 3;
-        background: url("among_us_run.gif");
+        background: url("./assets/among_us_run.gif");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -153,7 +153,7 @@ body{
 
         .bullets{
             position: absolute;
-            background-image: url("bullet.png");
+            background-image: url("./assets/bullet.png");
             background-position: center; 
             width: 5rem;
             height: 1.4rem;
@@ -203,12 +203,12 @@ body{
             width: 100%;
         }
 
-        .puente{
+        .bridge{
             display: none;
             position: absolute;
             height: 100%;
             width: 8%;
-            background:url("bridge.png");
+            background:url("./assets/bridge.png");
             background-size: 5rem;
             background-repeat: no-repeat;
             background-position: center;

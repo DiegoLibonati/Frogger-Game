@@ -1,75 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Frogger</title>
 
-    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link rel="stylesheet" type="text/css" href="./src/styles.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
-
-</head>
-<body>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header class="header_container">
-        <div class="div_container">
-            <img src="templates/DL.png" alt="diego libonati logo">
-        </div>
+      <div class="div_container">
+        <img src="./src/assets/DL.png" alt="diego libonati logo" />
+      </div>
 
-        <div class="div_container">
-            <h2>Frogger</h2>
-        </div>
+      <div class="div_container">
+        <h2>Frogger</h2>
+      </div>
     </header>
 
     <section class="section_container_information">
-
-        <div class="section_div">
+      <div class="section_div">
         <h1>Welcome to my Frogger</h1>
-        <p>Try to finish this road, if you arrive and touch the red zone, you will win.</p>
-        </div>
+        <p>
+          Try to finish this road, if you arrive and touch the red zone, you
+          will win.
+        </p>
+      </div>
 
-        <div class="section_div">
-            <p>Use the Arrows of your keyboard. UP / LEFT / DOWN / RIGHT</p>
-        </div>
-
+      <div class="section_div">
+        <p>Use the Arrows of your keyboard. UP / LEFT / DOWN / RIGHT</p>
+      </div>
     </section>
 
-        <section class="section_container">
+    <section class="section_container">
+      <div class="gameover">
+        <div class="gameoverImage"></div>
+        <button type="button">PLAY AGAIN</button>
+      </div>
 
-            <div class="gameover">
-                <div class="gameoverImage"></div>
-                <button type="button">PLAY AGAIN</button>
-            </div>
+      <div class="street"></div>
 
-            <div class="street">
-            </div>
+      <div class="war">
+        <img class="turret" src="./src/assets/turret.png" />
+        <img class="turret2" src="./src/assets/turret.png" />
+      </div>
 
-            <div class="war"> 
-                <img class="turret" src="turret.png">
-                <img class="turret2" src="turret.png">
-            </div>
+      <div class="water">
+        <img
+          class="waterImg"
+          src="https://cdnb.artstation.com/p/assets/images/images/006/718/221/original/andrii-shafetov-water.gif?1500738291"
+        />
+        <div class="bridge"></div>
+      </div>
 
-            <div class="water">
-                <img class="waterImg" src="https://cdnb.artstation.com/p/assets/images/images/006/718/221/original/andrii-shafetov-water.gif?1500738291">
-                <div class="puente"></div>
-            </div>
-
-            <div class="win">
-
-            </div>
-        </section>
+      <div class="win"></div>
+    </section>
 
     <section class="final_win">
-        <h2>YOU WIN</h2>
-        <img class="win_gif" src="among_us_run.gif">
-        <button type="button">PLAY AGAIN</button>
+      <h2>YOU WIN</h2>
+      <img class="win_gif" src="./src/assets/among_us_run.gif" />
+      <button type="button">PLAY AGAIN</button>
     </section>
 
-
-    <script src="codigo.js"></script>
-</body>
+    <script type="module" src="./src/script.ts"></script>
+  </body>
 </html>
