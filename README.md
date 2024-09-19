@@ -1,4 +1,4 @@
-# Frogger-Game-Page
+# Frogger-Game
 
 ## Getting Started
 
@@ -24,7 +24,7 @@
 
 I made a web page to play Frogger. Frogger is a traditional game of the frog trying to get to the other side of the map, in this case I made one among us. The first test will be to pass through a traffic full of ferraris and trucks, then you will have to dodge the bullets of two turrets and finally pass through a bridge that disappears and reappears. If you reach the red line, you win.
 
-IMPORTANT: ¡NOT SUPPORT FOR MOBILE!
+IMPORTANT: NOT SUPPORT FOR MOBILE
 
 ## Technologies used
 
@@ -34,7 +34,7 @@ IMPORTANT: ¡NOT SUPPORT FOR MOBILE!
 
 ## Portfolio Link
 
-[`https://www.diegolibonati.com.ar/#/project/39`](https://www.diegolibonati.com.ar/#/project/39)
+[`https://www.diegolibonati.com.ar/#/project/Frogger-Game`](https://www.diegolibonati.com.ar/#/project/Frogger-Game)
 
 ## Video
 
